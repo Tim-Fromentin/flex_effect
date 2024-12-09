@@ -16,20 +16,24 @@ body {
 .card {
     flex-grow: 1;
     height: 100%;
-    transition: flex-grow .2s ease-in-out;
+    transition: flex-grow .4s ease-in-out;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .c_1 {
-    background: rgb(236, 40, 236);
+    background-image: url(./img/card1.webp);
 }
 .c_2 {
-    background: rgb(0, 231, 212);
+    background-image: url(./img/card2.webp);
 }
 .c_3 {
-    background: rgb(255, 52, 52);
+    background-image: url(./img/card3.webp);
 }
 .c_4 {
-    background: rgb(2, 209, 2);
+    background-image: url(./img/card4.webp);
 }
 .c_1:hover, .c_2:hover, .c_3:hover, .c_4:hover {
     flex-grow: 2;
 }
+
