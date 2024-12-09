@@ -1,0 +1,35 @@
+html{box-sizing:border-box;font-size:62.5%}*,::after,::before{box-sizing:inherit}body{background:var(--color-bg);color:var(--color-text);margin:0;padding:0;font-size:1.6rem}ol,ul{list-style:none}a{text-decoration:none;color:inherit}
+
+body {
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    height: 300px;
+    width: 50%;
+    display: flex;
+}
+.card {
+    flex-grow: 1;
+    height: 100%;
+    transition: flex-grow .2s ease-in-out;
+}
+.c_1 {
+    background: rgb(236, 40, 236);
+}
+.c_2 {
+    background: rgb(0, 231, 212);
+}
+.c_3 {
+    background: rgb(255, 52, 52);
+}
+.c_4 {
+    background: rgb(2, 209, 2);
+}
+.c_1:hover, .c_2:hover, .c_3:hover, .c_4:hover {
+    flex-grow: 2;
+}
